@@ -65,8 +65,8 @@ class Game
   def user_interface
     puts "/////////////       Welcome to Tic Tac Toe!         //////////////////////"
     puts "//////////////////  Ex: '1' would move you to the 1st column, 1st row //////////////\n"
-    puts "              To start the game enter: start"
-    puts "              Press 'q' to Quit"
+    puts "                    To start the game enter: start"
+    puts "                    Press 'q' to Quit"
 
     input = gets.strip
     case input.downcase
